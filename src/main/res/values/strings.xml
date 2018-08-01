@@ -1,0 +1,42 @@
+<resources>
+<string name="app_name">NewsApp</string>
+<string name="no_internet">No internet connection! Please check your connectivity and try again!</string>
+<string name="no_articles">No news available found! Please come back later and try again!</string>
+
+<string name="settings_menu_item">Settings</string>
+<string name="settings_title">News Settings</string>
+
+<string name="settings_number_of_news_label">Number of displayed news</string>
+<string name="settings_number_of_news_key" translatable="false">number_of_news</string>
+<string name="settings_number_of_news_default" translatable="false">10</string>
+
+<string name="settings_order_by_label">Order By</string>
+<string name="settings_order_by_key" translatable="false">order_by</string>
+<string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+<string name="settings_order_by_newest_label">Newest</string>
+<string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most oldest option [CHAR LIMIT=20] -->
+<string name="settings_order_by_oldest_label">Oldest</string>
+<string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by most relevance option [CHAR LIMIT=20] -->
+<string name="settings_order_by_relevance_label">Relevance</string>
+<string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+<string name="settings_theme_android_key">android</string>
+<string name="settings_theme_android_label">Android</string>
+<string name="settings_theme_ios_key">ios</string>
+<string name="settings_theme_ios_label">iOS</string>
+<string name="settings_theme_phones_key">phones</string>
+<string name="settings_theme_phones_label">Phones</string>
+<string name="settings_theme_ai_key">ai</string>
+<string name="settings_theme_ai_label">Artificial intelligence</string>
+<string name="settings_theme_gadgets_key">gadgets</string>
+<string name="settings_theme_gadgets_label">Gadgets</string>
+<string name="settings_theme_games_key">games</string>
+<string name="settings_theme_games_label">Games</string>
+
+    </resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+    <EditTextPreference
+        android:defaultValue="@string/settings_number_of_news_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_number_of_news_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_number_of_news_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label"/>
+
+    <PreferenceCategory
+        android:title="Themes"/>
+    <CheckBoxPreference
+        android:key="@string/settings_theme_android_key"
+        android:title="@string/settings_theme_android_label"
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference
+        android:key="@string/settings_theme_ios_key"
+        android:title="@string/settings_theme_ios_label"/>
+
+    <CheckBoxPreference
+        android:key="@string/settings_theme_phones_key"
+        android:title="@string/settings_theme_phones_label"/>
+
+    <CheckBoxPreference
+        android:key="@string/settings_theme_ai_key"
+        android:title="@string/settings_theme_ai_label"/>
+
+    <CheckBoxPreference
+        android:key="@string/settings_theme_gadgets_key"
+        android:title="@string/settings_theme_gadgets_label"/>
+
+    <CheckBoxPreference
+        android:key="@string/settings_theme_games_key"
+        android:title="@string/settings_theme_games_label"/>
+</PreferenceScreen>
