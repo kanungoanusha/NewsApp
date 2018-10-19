@@ -1,4 +1,5 @@
 # NewsApp
+About-
 Eight App in Udacity's Android Basics Nanodegree by Google .This is app displays recent news with section it is related to (i.e politics, technology) using The Guardian News API.
 
 <img src="https://user-images.githubusercontent.com/29801319/44250420-dc5c9980-a211-11e8-8506-e6579a0df5cb.png" align="left" height="500" width="300">
